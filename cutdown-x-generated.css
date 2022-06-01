@@ -1,0 +1,88 @@
+a,
+h1 a:hover,
+h2 a:hover
+ {
+    color: rgb(40, 158, 197);
+    text-decoration: none;
+}
+
+html {
+    font-size: 12px;
+}
+@media (min-width : 500px) {
+    html {
+        font-size: calc(12px + (20 - 12) * ((100vw - 500px) / (1000 - 500)));
+    }
+}
+@media (min-width : 1000px) {
+    html {
+        font-size: 20px;
+    }
+}
+body {
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(103, 97, 97);
+    background-color: rgb(255, 255, 255);
+}
+h1,
+h2,
+.h1,
+.h2
+{
+    color: #272727;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;letter-spacing: -0.035em;
+}
+
+
+body,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.article-3.x-col {
+    z-index: auto;
+    font-size: 1em;
+    background-color: transparent;
+    transition-timing-function: cubic-bezier(0.400, 0.000, 0.200, 1.000);
+}
+.article-2.x-row {
+    z-index: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    font-size: 1em;
+    background-color: transparent;
+    transition-timing-function: cubic-bezier(0.400, 0.000, 0.200, 1.000);
+}
+.article-2 > .x-row-inner {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin: calc(((1rem / 2) + 1px) * -1) calc(((1rem / 2) + 1px) * -1);
+}
+.article-5.x-text {
+    margin: 50px 0em 0em 0em;
+    font-family: inherit;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+    transition-timing-function: cubic-bezier(0.400, 0.000, 0.200, 1.000);
+}
+.article-5.x-text > :first-child {
+    margin-top: 0;
+}
+.article-5.x-text > :last-child {
+    margin-bottom: 0;
+}
