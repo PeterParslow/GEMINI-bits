@@ -1,0 +1,75 @@
+h1, h1 {font-size: 40px; }
+
+h2, h2 {font-size: 30px; }
+
+h3, h3 {font-size: 25px; }
+
+h4, h4 {font-size: 20px; }
+
+h5, h5 {font-size: 14px; }
+.x-sidebar {
+    border-left: 1px solid #33ccff !important;
+    padding: 20px !important;
+}
+body .x-flexslider {
+      background-color:transparent;
+}
+
+.flex-control-nav:not(.flex-control-thumbs) {
+    top: auto;
+  	bottom: 1;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.flex-control-nav a {
+    background-color: #ccc;
+    border-radius: 100%;
+}
+.x-flexslider-shortcode-container .flex-control-nav:not(.flex-control-thumbs) {
+    top: auto;
+    right: auto;
+    left: 50%;
+    bottom: 0;
+    margin-left: -36px;
+}
+
+.x-flexslider-shortcode-container .flex-control-nav a {
+    background-color: transparent;
+    border: solid 1px #000;
+}
+
+.x-flexslider-shortcode-container .flex-control-nav a.flex-active {
+    background-color: #0099bb;
+}
+.x-flexslider .x-slides img {
+    width:  auto;
+}
+.flex-direction-nav {
+    position: absolute;
+    right: 105px;
+    bottom: 45px;
+}
+@media  (max-width: 980px) 
+
+{
+    a[href$='#ubermenu-row'] 
+    { 
+        display:none;
+    }
+}
+.flexmethod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.x-container:before {
+  content: normal;
+}
+.single-post .entry-featured {
+    width: 30%;
+}		
